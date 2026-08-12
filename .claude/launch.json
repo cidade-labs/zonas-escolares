@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "mis-educativos-dev",
+      "name": "zonas-escolares-dev",
       "runtimeExecutable": "/usr/bin/python3",
-      "runtimeArgs": ["-m", "http.server", "8743", "--directory", "/Users/ashaibani/Desktop/coruna_labs/mis-educativos"],
-      "port": 8743
+      "runtimeArgs": ["-m", "http.server", "8744", "--directory", "/Users/ashaibani/Desktop/coruna_labs/zonas-escolares"],
+      "port": 8744
     }
   ]
 }
