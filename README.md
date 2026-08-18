@@ -248,7 +248,7 @@ requirements.txt
 
 ## About
 
-Zonas Escolares is a project of [Coruña Labs](https://corunalabs.org), a
+Zonas Escolares is a project of [Cidade Labs](https://cidadelabs.org), a
 small, independent, non-profit civic-tech lab for Galicia. It works in
 Galician (default), Spanish, and English.
 

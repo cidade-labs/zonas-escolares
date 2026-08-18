@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Zonas Escolares · Coruña Labs</title>
+<title>Zonas Escolares · Cidade Labs</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css" rel="stylesheet" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
 <style>
-  /* ===== Coruña Labs shared design tokens — extracted from Bus Works ===== */
+  /* ===== Cidade Labs shared design tokens — extracted from Bus Works ===== */
   :root{
     --ink:#16181a;--muted:#6b7177;--faint:#9aa0a6;--hairline:#e2e3e5;
     --paper:#fbfbfa;--panel:#ffffff;--rest:#b4b8bc;
@@ -240,7 +240,7 @@
 <div class="masthead">
   <div class="top">
     <div>
-      <p class="lab"><a href="https://corunalabs.org">Coruña Labs</a></p>
+      <p class="lab"><a href="https://cidadelabs.org">Cidade Labs</a></p>
       <h1 id="m-title">Zonas Escolares</h1>
     </div>
     <div class="langs" id="langs">
@@ -283,7 +283,7 @@
 
 <script>
 /* ==========================================================================
-   Zonas Escolares — Coruña Labs
+   Zonas Escolares — Cidade Labs
    Built from map-template. The rail is permanent -- not the optional,
    collapsible thing the template treats it as -- because it's the primary
    browse/filter surface here: city select, address search, and the
@@ -310,7 +310,7 @@ const I18N = {
        detailBack:"Volver á lista",
        fieldAddress:"Enderezo", fieldPhone:"Teléfono", fieldEmail:"Correo electrónico",
        fieldWebsite:"Web", fieldOwnership:"Titularidade", concertadoBadge:"Concertado",
-       railFoot:'Datos: <a href="https://www.edu.xunta.gal/centroseducativos/" target="_blank" rel="noopener">Xunta de Galicia — Centros educativos</a> (fonte oficial). <a href="https://github.com/Coruna-Labs/zonas-escolares" target="_blank" rel="noopener">Código fonte ↗</a>',
+       railFoot:'Datos: <a href="https://www.edu.xunta.gal/centroseducativos/" target="_blank" rel="noopener">Xunta de Galicia — Centros educativos</a> (fonte oficial). <a href="https://github.com/cidade-labs/zonas-escolares" target="_blank" rel="noopener">Código fonte ↗</a>',
        ensinanzaNames:{"22":"Infantil","25":"Primaria","24":"ESO","29":"Bacharelato"} },
   es:{ title:"Zonas Escolares", sub:"Áreas de influencia de los centros educativos de Galicia.",
        loading:"Cargando…", error:"No se pudieron cargar los datos.",
@@ -328,7 +328,7 @@ const I18N = {
        detailBack:"Volver a la lista",
        fieldAddress:"Dirección", fieldPhone:"Teléfono", fieldEmail:"Correo electrónico",
        fieldWebsite:"Web", fieldOwnership:"Titularidad", concertadoBadge:"Concertado",
-       railFoot:'Datos: <a href="https://www.edu.xunta.gal/centroseducativos/" target="_blank" rel="noopener">Xunta de Galicia — Centros educativos</a> (fuente oficial). <a href="https://github.com/Coruna-Labs/zonas-escolares" target="_blank" rel="noopener">Código fuente ↗</a>',
+       railFoot:'Datos: <a href="https://www.edu.xunta.gal/centroseducativos/" target="_blank" rel="noopener">Xunta de Galicia — Centros educativos</a> (fuente oficial). <a href="https://github.com/cidade-labs/zonas-escolares" target="_blank" rel="noopener">Código fuente ↗</a>',
        ensinanzaNames:{"22":"Infantil","25":"Primaria","24":"ESO","29":"Bachillerato"} },
   en:{ title:"School Zones", sub:"School catchment zones across Galicia.",
        loading:"Loading…", error:"Couldn't load the data.",
@@ -346,7 +346,7 @@ const I18N = {
        detailBack:"Back to list",
        fieldAddress:"Address", fieldPhone:"Phone", fieldEmail:"Email",
        fieldWebsite:"Website", fieldOwnership:"Ownership", concertadoBadge:"Publicly subsidized",
-       railFoot:'Data: <a href="https://www.edu.xunta.gal/centroseducativos/" target="_blank" rel="noopener">Xunta de Galicia — Centros educativos</a> (official source). <a href="https://github.com/Coruna-Labs/zonas-escolares" target="_blank" rel="noopener">Source code ↗</a>',
+       railFoot:'Data: <a href="https://www.edu.xunta.gal/centroseducativos/" target="_blank" rel="noopener">Xunta de Galicia — Centros educativos</a> (official source). <a href="https://github.com/cidade-labs/zonas-escolares" target="_blank" rel="noopener">Source code ↗</a>',
        ensinanzaNames:{"22":"Infantil","25":"Primary","24":"ESO","29":"Bacharelato"} },
 };
 
